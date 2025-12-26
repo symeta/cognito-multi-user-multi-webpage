@@ -3,7 +3,7 @@ const url = require('url');
 const { execSync } = require('child_process');
 
 const CONFIG = { clientId: '<specific client id>',
-domain: '<specific domain id>',
+domain: '<specific domain id, without https://>',
 redirectUri: 'http://localhost:3000/callback', bucket: '<specific bucket name>' };
 
 const userImages = { 'wsy1': '1.png', 'wsy2': '2.png' };
