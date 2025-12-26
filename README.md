@@ -105,7 +105,7 @@ aws cognito-idp admin-set-user-password \
   --region us-east-1
 ```
 
-start node server
+- start node server
 ```sh
 node server.js
 ```
