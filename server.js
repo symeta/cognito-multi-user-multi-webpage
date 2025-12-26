@@ -6,7 +6,7 @@ const CONFIG = { clientId: '<specific client id>',
 domain: '<specific domain id, without https://>',
 redirectUri: 'http://localhost:3000/callback', bucket: '<specific bucket name>' };
 
-const userImages = { 'wsy1': '1.png', 'wsy2': '2.png' };
+const userImages = { 'u1': '1.png', 'u2': '2.png' };
 
 function exchangeCodeForTokens(code) {
   const body = `grant_type=authorization_code&client_id=${CONFIG.clientId}&code=${code}&redirect_uri=${encodeURIComponent(CONFIG.redirectUri)}`;
