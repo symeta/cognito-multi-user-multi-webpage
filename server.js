@@ -2,9 +2,9 @@ const http = require('http');
 const url = require('url');
 const { execSync } = require('child_process');
 
-const CONFIG = { clientId: '5jaq0m7dabu6ebqsietk2d4pvu',
-domain: 'bb26-auth.auth.us-east-1.amazoncognito.com',
-redirectUri: 'http://localhost:3000/callback', bucket: 'ds-shiyang' };
+const CONFIG = { clientId: '<specific client id>',
+domain: '<specific domain id>',
+redirectUri: 'http://localhost:3000/callback', bucket: '<specific bucket name>' };
 
 const userImages = { 'wsy1': '1.png', 'wsy2': '2.png' };
 
