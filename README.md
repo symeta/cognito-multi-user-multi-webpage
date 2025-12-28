@@ -4,7 +4,8 @@ This demo showcases how to set up a multi-user, multi-webpage authorization mech
 
 # 认证与图片访问流程
 
-<img width="672" height="1022" alt="Screenshot 2025-12-26 at 11 29 01" src="https://github.com/user-attachments/assets/2869a84f-b5ed-495a-9889-a8c67d2a0137" />
+<img width="506" height="673" alt="image" src="https://github.com/user-attachments/assets/70142ac8-ec28-455f-8b2b-9d6ee2b71a87" />
+
 
 # 安全机制                                                                            
   • 预签名 URL 1小时后过期                                                                 
