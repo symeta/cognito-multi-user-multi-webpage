@@ -4,7 +4,7 @@ This demo showcases how to set up a multi-user, multi-webpage authorization mech
 
 # 认证与图片访问流程
 
-<img width="506" height="673" alt="image" src="https://github.com/user-attachments/assets/70142ac8-ec28-455f-8b2b-9d6ee2b71a87" />
+<img width="600" height="798" alt="image" src="https://github.com/user-attachments/assets/70142ac8-ec28-455f-8b2b-9d6ee2b71a87" />
 
 
 # 安全机制                                                                            
