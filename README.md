@@ -8,10 +8,10 @@ This demo showcases how to set up a multi-user, multi-webpage authorization mech
 
 
 # Security mechanism                                                                            
-  • The pre-signed URL expires after 1 hour.
-  • A new signed URL is generated with each login.
-  • The S3 bucket is not public; it cannot be accessed without a signature.
-  • Cognito authentication is required to obtain the pre-signed URL.
+  - The pre-signed URL expires after 1 hour.
+  - A new signed URL is generated with each login.
+  - The S3 bucket is not public; it cannot be accessed without a signature.
+  - Cognito authentication is required to obtain the pre-signed URL.
   
 # Implementation Process
 - create user pool
