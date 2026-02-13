@@ -2,18 +2,18 @@
 
 This demo showcases how to set up a multi-user, multi-webpage authorization mechanism leveraging on Amazon Cognito.
 
-# 认证与图片访问流程
+# User authentication and image accessing process
 
 <img width="700" height="931" alt="image" src="https://github.com/user-attachments/assets/70142ac8-ec28-455f-8b2b-9d6ee2b71a87" />
 
 
-# 安全机制                                                                            
-  • 预签名 URL 1小时后过期                                                                 
-  • 每次登录生成新的签名 URL                                                               
-  • S3 桶非公开，无签名无法访问                                                            
-  • 必须通过 Cognito 认证才能获取预签名 URL 
+# Security mechanism                                                                            
+  • The pre-signed URL expires after 1 hour.
+  • A new signed URL is generated with each login.
+  • The S3 bucket is not public; it cannot be accessed without a signature.
+  • Cognito authentication is required to obtain the pre-signed URL.
   
-# 实施过程
+# Implementation Process
 - create user pool
 ```sh
 aws cognito-idp create-user-pool \
