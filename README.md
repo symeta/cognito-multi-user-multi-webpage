@@ -4,7 +4,9 @@ This demo showcases how to set up a multi-user, multi-webpage authorization mech
 
 # User authentication and image accessing process
 
-<img width="700" height="931" alt="image" src="https://github.com/user-attachments/assets/70142ac8-ec28-455f-8b2b-9d6ee2b71a87" />
+
+<img width="2319" height="3084" alt="1" src="https://github.com/user-attachments/assets/140502c1-76ac-488b-bbb1-9240cfab39a7" />
+
 
 
 # Security mechanism                                                                            
